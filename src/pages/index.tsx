@@ -108,6 +108,9 @@ const Node = ({ nodeDatum, toggleNode, foreignObjectProps }: nodeProps) => {
       style={{ background: "red" }}
       className="w-6 h-6 text-black bg-red-300"
     >
+      {/* Links to documentation */}
+      {/* https://codesandbox.io/s/rd3t-v2-custom-svg-tag-1bq1e?file=/src/App.js */}
+      {/* https://bkrem.github.io/react-d3-tree/docs/ */}
       {/* <circle r={20}></circle> */}
       <foreignObject {...foreignObjectProps}>
         <div title="hello" className="bg-red-300 rounded-full w-fit">
